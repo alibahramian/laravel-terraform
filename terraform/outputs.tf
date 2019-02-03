@@ -42,7 +42,3 @@ output "public_subnet_ids" {
 output "private_subnet_ids" {
   value = "${module.vpc.private_subnet_ids}"
 }
-
-output "bucket" {
-  value = "${module.s3.s3_bucket}"
-}
